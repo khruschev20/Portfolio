@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
      <script src="C:\Users\Sintrex Training\OneDrive - sintrex.com\Documents\Notepad++\Portfolio\JavaScript.js"></script>
     <!--CSS Styles -->
-    <link rel="stylesheet" href="C:\Users\Sintrex Training\OneDrive - sintrex.com\Documents\Notepad++\Portfolio\stylesheet.css" />
-
+    <link rel="stylesheet" href="stylesheet.css" />
+	<!-- <link rel="stylesheet" href="C:\Users\Sintrex Training\OneDrive - sintrex.com\Documents\Notepad++\Portfolio\stylesheet.css" /> -->
+<!-- Add Font Awesome library -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <!-- Favicons -->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
       href="assets/icons/apple-touch-icon.png"
     />
-
     <link
       rel="icon"
       type="image/png"
@@ -32,6 +33,7 @@
 
   <body>
     <!-- Navbar -->
+
 	<nav>
       <h1>Vuyisa Mamba</h1>
       <ul class="navigation">
@@ -40,19 +42,15 @@
         <li><a href="#projects" class="nav-link">Projects</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
-      <button class="burger-menu" id="burger-menu">
-        <ion-icon class="bars" name="menu-outline"></ion-icon>
-      </button>
+      
 </nav>
 
     <!-- Hero Section -->
 	<section class="hero" id="about">
-      <img
-        src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fuxplanet.org%2Fhow-to-design-a-hero-image-website-in-2022-best-practices-and-examples-256b7e8c31fb&psig=AOvVaw0s3UrQybkP5y57m5KBhzMT&ust=1673344962047000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKjZ-vSduvwCFQAAAAAdAAAAABAD"
-        alt="jane-doe"
-        loading="lazy"
-        class="hero-img"
-      />
+      <div class="hero-image">
+  <img src="" alt="Hero Image">
+</div>
+
       <div class="bio animate__animated animate__shakeX">
         <h2 class="bio-title">About Me</h2>
         <p class="bio-text">
@@ -235,32 +233,28 @@
       </div>
     </section>
 
-    <!-- Social accounts - Fixed to the right -->
-	<div class="socials">
-      <a href="#" target="_blank"
-        ><img
-          src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ftenor.com%2Fview%2Ftwitter-png-bird-gif-14089371&psig=AOvVaw3d7Gc4fkCPflyY98Z4js5H&ust=1673434373504000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCJjB0P3qvPwCFQAAAAAdAAAAABAD"
-          alt="Twitter"
-		  <!--loading="lazy"-->
-          class="socicon"
-      /></a>
-      <a href="#" target="_blank"
-        ><img
-          src="assets/icons/icons8-instagram.gif"
-          alt="Instagram"
-          loading="lazy"
-          class="socicon"
-      /></a>
-      <a href="#" target="_blank"
-        ><img
-          src="assets/icons/icons8-linkedin-circled.gif"
-          alt="Linkedin"
-          loading="lazy"
-          class="socicon"
-      /></a>
-      <a href="#" target="_blank"
-        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
-      /></a>
+   <!-- Create a container for the icons -->
+<div class="social-icons">
+  <!-- Add a Twitter icon -->
+  <a href="https://twitter.com/yourusername" target="_blank">
+    <i class="fab fa-twitter"></i>
+  </a>
+  
+  <!-- Add an Instagram icon -->
+  <a href="https://www.instagram.com/yourusername" target="_blank">
+    <i class="fab fa-instagram"></i>
+  </a>
+  
+  <!-- Add a LinkedIn icon -->
+  <a href="https://www.linkedin.com/in/yourusername" target="_blank">
+    <i class="fab fa-linkedin-in"></i>
+  </a>
+  
+  <!-- Add a GitHub icon -->
+  <a href="https://github.com/yourusername" target="_blank">
+    <i class="fab fa-github"></i>
+  </a>
+</div>
 
     <!-- Scroll to top -->
 	<i class="scroll-up" id="scroll-up"
@@ -276,7 +270,7 @@
       <p class="copy">
         Built with &#x2661; by
         <a href="https://twitter.com/koladechris" target="_blank"
-          >Kolade Chris (Ksound)</a
+          >Vuyisa Khruschev Mamba</a
         >
       </p>
 </footer>

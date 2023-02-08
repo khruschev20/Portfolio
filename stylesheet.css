@@ -24,6 +24,22 @@ selector {
 }
 /* Variables end */
 
+.hero-image {
+  background-image: url('');
+  background-size: cover;
+  height: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -62,13 +78,16 @@ nav {
   padding: 1.5rem 3.5rem;
   background-color: var(--bg-color);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  background-color: #333;
+  
 }
 nav h1 {
-  color: var(--primary-color);
+  color:white;
 }
 
 nav a {
-  color: var(--primary-color);
+  /*color: var(--primary-color);*/
+  color:white;
   transition: var(--transition);
 }
 nav a:hover {
@@ -262,18 +281,25 @@ nav ul li {
   border: 2px solid var(--primary-color);
   cursor: pointer;
 }
-.socials {
+
+.social-icons {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   position: fixed;
   right: 1%;
   bottom: 50%;
 }
 
-.socicon {
-  width: 2rem;
-  height: 2rem;
+.social-icons a {
+  padding: 10px;
+  color: #333;
 }
+
+.social-icons a:hover {
+  color: #1da1f2;
+}
+
 .scroll-up {
   position: fixed;
   right: 0.5%;
@@ -285,6 +311,9 @@ nav ul li {
   width: 3rem;
   height: 3rem;
 }
+
+
+
 @media screen and (max-width: 720px) {
   /*changes reflects on screen with a width of 720px and below*/
   nav {
@@ -354,6 +383,26 @@ nav ul li {
     max-width: 23.75rem;
   }
 }
+.burger-menu-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 30px;
+  width: 40px;
+  padding: 10px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.burger-menu-icon__line {
+  width: 100%;
+  height: 4px;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+
 @media screen and (max-width: 420px) {
   .hero img {
     height: 37.5rem;
