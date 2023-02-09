@@ -30,7 +30,7 @@ navLink.forEach((link) =>
   })
 );*/
 // Create button
-const scrollUpButton = document.createElement("button");
+/*const scrollUpButton = document.createElement("button");
 scrollUpButton.innerHTML = "Go to top";
 scrollUpButton.classList.add("scroll-up");
 scrollUpButton.style.display = "none";
@@ -54,5 +54,5 @@ scrollUpButton.addEventListener("click", function() {
 
 $('.navbar-toggle').click(function() {
   $('.navbar-nav').slideToggle();
-});
+});*/
 
