@@ -23,6 +23,10 @@ selector {
   --transition: 0.3s;
 }
 /* Variables end */
+body{
+/*background-image:url("https://media.istockphoto.com/id/1335928992/vector/yellow-and-black-unusual-background-with-subtle-rays-of-light.jpg?s=612x612&w=0&k=20&c=SRDFb2oQBEvJGxIG9TF0TpXzwr00gxMMtTqCMF1tln4=");*/
+background-color:rgba(32, 82, 210, 0.8);
+}
 
 .hero-image {
   background-image: url('');
@@ -31,6 +35,7 @@ selector {
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius:24px;
 }
 
 .hero-image img {
@@ -128,8 +133,12 @@ nav ul li {
   width: 25rem;
   padding: 0.625rem;
   border-radius: 6px;
-  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+  /*box-shadow: 0px 2px 15px 2px var(--primary-shadow);*/
+  box-shadow: 0px 2px 15px 2px rgba(0, 0, 0, 0.8);
+  border: 1px solid black;
+  background-color:white;
 }
+
 
 .bio h1 {
   margin-bottom: var(--bottom-margin);
@@ -142,6 +151,9 @@ nav ul li {
 .more-about {
   background-color: var(--bg-color);
   padding: 1rem 6rem;
+  box-shadow: 0px 2px 15px 2px rgba(0, 0, 0, 0.8);
+  border-radius:24px;
+  margin:0rem 5rem 0rem 5rem;
 }
 
 .more-about h2 {
@@ -178,11 +190,19 @@ nav ul li {
   box-shadow: 0 3px 10px var(--secondary-shadow);
   padding: 20px;
   margin: 10px;
+  box-shadow: 0px 2px 15px 2px rgba(0, 0, 0, 0.8);
 }
+
+.icon-card:hover{
+	padding:25px;
+	transition:0.5s;
+}
+
 .projects {
   background-color: var(--bg-color);
   padding: 32px 0;
   margin-top: 2rem;
+  box-shadow: 0px 2px 15px 2px rgba(0, 0, 0, 0.8);
 }
 
 .project-pic {
@@ -238,12 +258,14 @@ nav ul li {
   margin: 0 auto;
   padding: 0.938rem;
   border-radius: 5px;
-  box-shadow: 0 3px 10px var(--secondary-shadow);
+  /*box-shadow: 0 3px 10px var(--secondary-shadow);*/
+  box-shadow: 0px 2px 15px 2px rgba(0, 0, 0, 0.8);
+  
 }
 .contact-form-container label {
   line-height: 2.7em;
   font-weight: var(--bold-font);
-  color: var(--primary-color);
+  color:black;
 }
 
 .contact-form-container textarea {
@@ -427,12 +449,16 @@ nav ul li {
   text-align: center;
   margin: 2rem 0 0;
 }*/
+.info{
+	color:red;
+}
 footer {
-  position: fixed;
+margin-top:2rem;
+  position: static;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: var(--bg-color);
+  background-color: transparent;
   text-align: center;
 }
 
