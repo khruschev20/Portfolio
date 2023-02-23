@@ -26,6 +26,7 @@ selector {
 body{
 /*background-image:url("https://media.istockphoto.com/id/1335928992/vector/yellow-and-black-unusual-background-with-subtle-rays-of-light.jpg?s=612x612&w=0&k=20&c=SRDFb2oQBEvJGxIG9TF0TpXzwr00gxMMtTqCMF1tln4=");*/
 background-color:rgba(32, 82, 210, 0.8);
+
 }
 
 .hero-image {
@@ -248,6 +249,15 @@ nav ul li {
 }
 .contact {
   margin-top: 2rem;
+}
+
+.project-link2{
+	color:black;
+	font-style:bold;
+}
+.project-link2:hover{
+	color:black;
+	font-style:bold;
 }
 
 .contact h2 {
